@@ -7,7 +7,7 @@ import WebSocket, {WebSocketServer} from "ws";
 let user1_hr = 0;
 let user1_rp = 0;
 let user1_tp = 0;
-const str = 'user1';
+const str = 'user8';
 
 const PADDING = 20;
 const MAX_VALUE = 360;

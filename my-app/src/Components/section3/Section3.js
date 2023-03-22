@@ -12,11 +12,8 @@ const Section3 = () => {
 				<p>📞 +(82)10-xxxx-xxxx</p>
 				<p>📧 xxxx@konkuk.ac.kr</p>
 				<br/>
-				<p>http://www.konkuk.ac.kr/do/Index.do</p>
-				<p>https://cafe.naver.com/maritimesmartcloth</p>
-				<br/>
 				<p>https://github.com/KU-Graduation-Project</p>
-				<p>http://117.16.136.124/?locale=ko#app_board-com_seagate_filebrowser</p>
+				<p>https://cafe.naver.com/maritimesmartcloth</p>
 				<br/>
 			</div>
 			{/* <footer class="sns-pictogram">

@@ -7,7 +7,7 @@ import WebSocket, {WebSocketServer} from "ws";
 let user1_hr = 0;
 let user1_rp = 0;
 let user1_tp = 0;
-const str = 'user1';
+const str = 'user5';
 
 const PADDING = 20;
 const MAX_VALUE = 360;
@@ -430,7 +430,7 @@ const Detail = () => {
     <div className="detail">
       <p>{message}</p>
       <p className="signal">Heart Rate</p>
-      {<LineChart1 className="chart" id="HR_lineChart" />}
+\      {<LineChart1 className="chart" id="HR_lineChart" />}
       <p className="signal">Respiration Rate</p>
       {<LineChart2 className="chart" id="RR_lineChart" />}
       <p className="signal">Body Temperature</p>

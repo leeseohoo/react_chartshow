@@ -8,6 +8,12 @@ const onClickSection1 = () => {
 const onClickSection2 = () => {
     return <Navigate to="/Section2" />;
 }
+const onClickSection3 = () => {
+    return <Navigate to="/Section3" />;
+}
+const onClickSection4 = () => {
+    return <Navigate to="/Section4" />;
+}
 
 const Nav = () => {
     return (
@@ -19,8 +25,8 @@ const Nav = () => {
                 <br/>
                 <a href="#target1"><h3 className="click" onClick={onClickSection1}>ABOUT</h3></a>
                 <a href="#target2"><h3 className="click" onClick={onClickSection2}>MEMBER</h3></a>
-                <h3 className="click">CONTACT</h3>
-                <h3 className="click">INFORMATION</h3>
+                <a href="#target3"><h3 className="click" onClick={onClickSection3}>CONTACT</h3></a>
+                <a href="#target4"><h3 className="click" onClick={onClickSection4}>INFORMATION</h3></a>
             </div>
         </nav>
     )
